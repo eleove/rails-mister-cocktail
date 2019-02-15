@@ -1,0 +1,58 @@
+// Place all the styles related to the Cocktails controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+body {
+  background-color: #ADDBF7;
+}
+
+.index-main-container {
+  margin: 20px auto;
+  padding: 20px;
+  width: 800px;
+  //display: flex;
+  // align-items: center;
+  text-align: center;
+  justify-content: center;
+}
+
+//.row {
+ // margin: 50px auto;
+//}
+
+th, td {
+  padding-left: 40px;
+  text-align: left;
+}
+
+table {
+  width: 540px;
+  margin-left: 100px;
+}
+
+img {
+  margin: 30px auto;
+}
+
+.card {
+  height: 175px;
+  text-shadow: 0 1px 3px rgba(0,0,0,0.6);
+  background-size: cover !important;
+  background-position: center;
+  color: white;
+  position: relative;
+  margin-bottom: 10px;
+}
+
+.card-description {
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+}
+.card-description h2 {
+  font-size: 24px;
+}
+
+.container {
+  width: 800px;
+}
